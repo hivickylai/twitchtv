@@ -1,0 +1,110 @@
+$family-sans-serif: Open Sans, sans-serif
+$title-stack: Work Sans, sans-serif
+$body-size: 16px
+$body-color: #666
+$background: #EFEFEF
+$primary: #fff
+$alternate: #666
+$h-color: #222
+$size-1: 3rem
+$size-2: 2rem
+$size-3: 1.25rem
+$size-4: 0.9rem
+$size-5: 0.7rem
+$size-6: 0.5rem
+
+// @import "node_modules/bulma/bulma"
+
+body
+    font-size: $body-size
+    font-family: $family-sans-serif
+    color: $body-color
+
+a
+    color: $primary
+    :hover
+        color: $alternate
+        font-style: none
+    :active
+        color: $primary
+
+h1
+    color: $h-color
+    font-family: $title-stack
+
+h2
+    color: $h-color
+    font-family: $title-stack
+
+ul
+    padding: 0
+
+.thumbnail
+    border: none
+
+.hide
+    display: none
+
+.top-pad
+    padding-top: 1rem
+
+.no-padding
+    padding: 0
+
+.nav-item
+    text-transform: uppercase
+    font-size: 14px
+    padding: 10px
+
+.nav
+    text-align: center
+
+.footer-text
+    font-size: $size-5
+    a
+        color: $body-color
+    .fa
+        font-size: $size-5
+        vertical-align: baseline
+
+.screen
+    background-color: $background
+    border: 1px solid #dbdbdb
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4)
+    max-width: 640px
+    margin: 5% auto
+
+.top
+    padding: 20px
+
+#title
+    font-size: 2rem
+    font-weight: 700
+
+// the channel's box
+.line
+    padding: 10px
+    text-align: left
+
+// channel name which is a link
+.channel-title 
+    font-size: 2rem
+    font-weight: 700
+
+// offline or no account alert
+.alert
+    color: #c62828
+
+// if live, name of stream
+.current-stream
+    font-style: italic
+
+// p that holds viewers and followers counts
+.stats
+    font-size: $size-5
+    color: #666
+
+// counts
+.current-viewers
+
+.current-followers
