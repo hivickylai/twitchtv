@@ -1,27 +1,13 @@
-# Very Handy Weather App
+# Very Concise TwitchTV App
 
-**See the whole thing working here: [vickylai.com/handy-weather-app](http://vickylai.com/handy-weather-app/)**
+**See the whole thing working here: [vickylai.io/twitchtv](http://vickylai.io/twitchtv/)**
 
-My first(!) full-fledged browser app. Shows weather and background photo based on ip address location.
+Shows streaming status for a predefined array of channels (for now).
 
-Created initially for [FreeCodeCamp](https://www.freecodecamp.com/vickylaixy)'s Front-End Developer Certification Course. The first (not actively maintained) version is on [CodePen](https://codepen.io/vickylaixy/full/jBXgeR/).
-
-***
-
-## Components  
-* __ip-api.com__
-  * Get JSON from `http://ip-api.com/json`
-* __Dark Sky API__
-  * https://darksky.net/dev/
-* __Unsplash API__ 
-  * https://source.unsplash.com/
-* __FontAwesome Icons__
-  * http://fontawesome.io/
-
-## Screenshot
-
-![How's the weather in Montreal?](/weather-montreal-1k.png) - width 1000px
+Created initially for [FreeCodeCamp](https://www.freecodecamp.com/vickylaiio)'s Front-End Developer Certification Course. The first (not actively maintained) version is on [CodePen](http://codepen.io/vickylaiio/full/pPNYQB/).
 
 ***
 
-Tested with Python 3.5.2
+## To Do
+* Users can add streams via input box
+* Users can search streams

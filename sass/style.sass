@@ -1,11 +1,11 @@
 $family-sans-serif: Open Sans, sans-serif
-$title-stack: Work Sans, sans-serif
+$title-stack: Coda, Work Sans, sans-serif
 $body-size: 16px
-$body-color: #666
-$background: #EFEFEF
+$body-color: #EFEFEF
+$background: #111
 $primary: #fff
-$alternate: #666
-$h-color: #222
+$alternate: #555
+$h-color: #EFEFEF
 $size-1: 3rem
 $size-2: 2rem
 $size-3: 1.25rem
@@ -19,6 +19,7 @@ body
     font-size: $body-size
     font-family: $family-sans-serif
     color: $body-color
+    background-color: #232127
 
 a
     color: $primary
@@ -52,12 +53,21 @@ ul
     padding: 0
 
 .nav-item
+    font-family: $title-stack
     text-transform: uppercase
     font-size: 14px
-    padding: 10px
+    padding: 10px 0
+    background-color: #4a138c
+    &:hover
+        background-color: #7c42bd
+        cursor: pointer
 
 .nav
     text-align: center
+
+.row
+    margin-right: 0
+    margin-left: 0
 
 .footer-text
     font-size: $size-5
@@ -69,13 +79,14 @@ ul
 
 .screen
     background-color: $background
-    border: 1px solid #dbdbdb
+    border: 0px solid #000
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4)
     max-width: 640px
-    margin: 5% auto
+    margin: 2.5% auto
 
 .top
     padding: 20px
+    background-color: #12005e
 
 #title
     font-size: 2rem
@@ -90,9 +101,19 @@ ul
 .channel-title 
     font-size: 2rem
     font-weight: 700
+    font-family: $title-stack
 
-// offline or no account alert
+// offline channel name which is a link
+.channel-offline 
+    font-size: 2rem
+    font-weight: 700
+    font-family: $title-stack
+    a
+        color: $alternate
+
+// no account alert
 .alert
+    font-size: $size-5
     color: #c62828
 
 // if live, name of stream
@@ -102,7 +123,11 @@ ul
 // p that holds viewers and followers counts
 .stats
     font-size: $size-5
-    color: #666
+    color: #ccc
+
+.stats-offline
+    font-size: $size-5
+    color: $alternate
 
 // counts
 .current-viewers

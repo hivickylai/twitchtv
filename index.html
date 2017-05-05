@@ -28,7 +28,7 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <!-- Google Fonts stack -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lobster|Open+Sans|Work+Sans|Pacifico|Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Coda|Open+Sans|">
 
 <!-- project CSS -->
 <link rel="stylesheet" href="/css/style.css">
@@ -38,12 +38,20 @@
 <body>
 
 <div class="screen">
-<div class="top"><span id="title">Who's streaming?</span></div>
+<div class="top"><h1 class="title is-1" id="title">Who's streaming?</h1></div>
 <div class="nav row">
-    <div class="col"><span class="nav-item">Live</span></div>
-    <div class="col"><span class="nav-item">Offline</span></div>
-    <div class="col"><span class="nav-item">Search</span></div>
+    <div class="col nav-item" id="live">Live</div>
+    <div class="col nav-item" id="offline">Offline</div>
+    <div class="col nav-item" id="reload">Reload</div>
 </div>
+<div class="add row"><form>
+    <div class="col"><input id="add-stream" type="text" placeholder="Enter stream name"></div>
+    <div class="col"><button id="add-go" type="submit"><span id="buttonText">Go</span></button></div>
+</form></div>
+<div class="search row hide"><form>
+    <div class="col"><input id="searchbox" type="text" placeholder="&#xF002;"></div>
+    <div class="col"><button id="search-streams" type="submit"><span id="buttonText">Go</span></button></div>
+</form></div>
 <div class="streams-box">
 <!-- Magic goes here -->
 </div>
