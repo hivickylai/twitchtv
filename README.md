@@ -4,7 +4,7 @@
 
 Shows streaming status for a predefined array of channels (for now).
 
-Created initially for [FreeCodeCamp](https://www.freecodecamp.com/vickylaiio)'s Front-End Developer Certification Course. The first (not actively maintained) version is on [CodePen](http://codepen.io/vickylaiio/full/pPNYQB/).
+Created initially for [FreeCodeCamp](https://www.freecodecamp.com/hivickylai)'s Front-End Developer Certification Course. The first (not actively maintained) version is on [CodePen](http://codepen.io/hivickylai/full/pPNYQB/).
 
 ***
 
